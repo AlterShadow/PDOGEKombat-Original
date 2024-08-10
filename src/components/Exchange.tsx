@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { TbX } from "react-icons/tb";
 import SettinsTop from "./Reusable/SettinsTop";
 import Top from "./Reusable/Top";
+import Navigation from './Reusable/Navigation';
 
 const Exchange: React.FC = () => {
     const [active, setActive] = useState<number | null>(0);
@@ -75,6 +76,7 @@ const Exchange: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <Navigation/>
         </div>
     );
 };

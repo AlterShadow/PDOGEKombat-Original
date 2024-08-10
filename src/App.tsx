@@ -28,8 +28,8 @@ function App() {
           <Route path="/quest" element={<Quest />} />
           <Route path="/train" element={<Train />} />
           <Route path="/settings" element={<Settings />} />
-          <Route path="/exchange" element={<Exchange />} />
-          <Route path="/language" element={<Languages />} />
+          <Route path="/settings/exchange" element={<Exchange />} />
+          <Route path="/settings/language" element={<Languages />} />
           <Route path="/ceo" element={<Ceo />} />
           <Route path="/cipher" element={<Cipher />} />
           <Route path="/airdrop" element={<Airdrop />} />

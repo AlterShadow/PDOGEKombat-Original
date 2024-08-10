@@ -8,7 +8,7 @@ const Content = () => {
         <p className="text-white text-[12px]">Get Maximum Coin</p>
         <div className="flex flex-row gap-4 text-white">
             <span className="flex flex-row items-center gap-1">
-                <img src="/images/" alt="" />
+                <img src="/images/lev.svg" alt="" />
                 <p className="text-[10px]">Lev 1</p>
             </span>
             <span className="flex flex-row items-center gap-1">
