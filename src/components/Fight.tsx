@@ -11,7 +11,7 @@ const Fight = () => {
             <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div>
             <Top />
             <Top2 />
-            <div className="z-[500] relative">
+            <div className="z-[500] ">
                 <div className="w-full flex items-center justify-center mt-2 ">
                     <div className="flex flex-row w-full items-start gap-2 justify-center">
                         <img src="/images/money.svg" className="mt-3" width={"10%"} alt="" />
@@ -32,7 +32,7 @@ const Fight = () => {
                         </span>
                     </div>
                 </div>
-                <img src="/images/home.svg" className="w-[70%]  absolute top-[18%] left-[13%]" alt="" />
+                <img src="/images/home.svg" className="w-[70%]  absolute md:top-[2%] top-[17%] left-[13%]" alt="" />
             </div>
             <div className="px-[6%] absolute w-full bottom-[16%]">
                 <div className=" justify-between flex w-full ">
