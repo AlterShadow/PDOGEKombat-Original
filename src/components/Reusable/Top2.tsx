@@ -34,8 +34,8 @@ const Top2 = () => {
             {
                 tops.map((top, index) => (
                     <Link to={top.link} key={index} className="w-full">
-                        <div className='flex flex-col items-center'>
-                            <button className='w-[43px] h-[43px] flex items-center justify-center bg-[#252423] rounded-lg'>
+                        <div className='flex flex-col items-center '>
+                            <button className='w-[43px] h-[43px] border-b-2 border-[#935EDB] flex items-center justify-center bg-[#252423] rounded-lg'>
                                 <img src={top.img} alt={top.title} />
                             </button>
                             <p className='text-[8px] text-white'>{top.title}</p>

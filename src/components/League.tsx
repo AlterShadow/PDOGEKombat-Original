@@ -51,10 +51,9 @@ const League = () => {
     ]
 
     return (
-        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[url(/images/background.svg)] bg-no-repeat bg-cover" >
-            <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div>
+        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[#120F11]" >
             <Top />
-            <div className='px-[4%] flex flex-col z-[500]'>
+            <div className='px-[4%] flex flex-col z-[100] h-[72vh] overflow-scroll'>
                 <div className="flex flex-col items-center">
                     <p className="fighting uppercase text-[32px] font-bold text-[#FCEE21]">Invite friends!</p>
                     <p className="text-[12px] text-white">you adn your friends will receive bonuses</p>

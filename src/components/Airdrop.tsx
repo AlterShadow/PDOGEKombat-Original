@@ -2,12 +2,14 @@
 import Top2 from './Reusable/Top2'
 import Top from './Reusable/Top'
 import Navigation from './Reusable/Navigation'
+import { Link } from 'react-router-dom'
 // import { TbX } from 'react-icons/tb'
 
 const Airdrop = () => {
+    
     return (
-        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[url(/images/background.svg)] bg-no-repeat bg-cover relative" >
-            <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div>
+        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[#120F11] relative" >
+            {/* <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div> */}
             <Top />
             <Top2 />
             <div className="px-[6%] z-[500] mt-3">
@@ -23,11 +25,16 @@ const Airdrop = () => {
                             <p className='text-[20px] font-semibold text-white'>AirDrop</p>
                             <p className='text-[10px] text-[#ABA7A7]'>You can change the language.</p>
                         </div>
+                        <Link to={"/airdrop2"} className='w-full'>
+                            <button className="w-full text-[14px] fighting py-3 mt-2 text-[#FCEE21] bg-[#A36CEE] rounded-xl">
+                                Connect Wallet
+                            </button>
+                        </Link>
                     </div>
                 </div>
 
             </div>
-            <Navigation/>
+            <Navigation />
         </div>
     )
 }

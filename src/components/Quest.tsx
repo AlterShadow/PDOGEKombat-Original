@@ -50,8 +50,8 @@ const Quest = () => {
         },
     ]
     return (
-        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[url(/images/background.svg)] bg-no-repeat bg-cover" >
-            <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div>
+        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[#120F11]" >
+            {/* <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div> */}
             <Top />
             <div className="px-[4%] flex flex-col z-[500]">
                 <div className="flex flex-col items-center">

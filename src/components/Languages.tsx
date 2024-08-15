@@ -113,8 +113,8 @@ const Languages: React.FC = () => {
     };
 
     return (
-        <div className="h-screen w-full overflow-x-hidden flex flex-col bg-[url(/images/background.svg)] bg-no-repeat bg-cover relative">
-            <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div>
+        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[#120F11]">
+            {/* <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div> */}
                 <Top />
             <div className='flex flex-col h-[75vh] overflow-scroll'>
                 <SettinsTop />

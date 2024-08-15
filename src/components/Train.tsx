@@ -18,33 +18,37 @@ const Train = () => {
     const [active, setActive] = useState("train")
     const tabs = [
         {
+            img:"",
             title:"Training",
             act:"train"
         },
         {
-            title:"UFC",
-            act:"ufc"
-        },
-        {
+            img:"",
             title:"Street",
             act:"street"
         },
         {
-            title:"Amature Fighting Competition",
+            img:"",
+            title:"Amature Fighting",
             act:"amature"
-        }
+        },
+        {
+            img:"",
+            title:"UFC",
+            act:"ufc"
+        },
     ]
 
     const tabitems:tabitems={
         train:<Traintab/>,
-        ufc:<Ufc/>,
         street:<Street/>,
+        ufc:<Ufc/>,
         amature:<Amature/>
     }
 
     return (
-        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[url(/images/background.svg)] bg-no-repeat bg-cover" >
-            <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div>
+        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[#120F11]" >
+            {/* <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div> */}
             <Top />
             <div className="px-[6%] z-[500] h-[76vh] overflow-y-scroll">
                 <button className="border-[2px] py-1 w-full backdrop-blur-sm rounded-lg px-2 flex justify-between border-[#E1AF54]">
@@ -80,7 +84,7 @@ const Train = () => {
                     {
                         tabs.map((tab, index)=>(
                             <button key={index} className={`py-1 w-full rounded-lg px-2 items-center justify-center flex ${tab.act === active? 'bg-[#935EDB]' : 'bg-[#252423]'}`} onClick={()=>setActive(tab.act)}>
-                                <p className={`text-white text-[9px] ${tab.act === active? 'text-white' : 'text-[#978E8E]'}`}>{tab.title}</p>
+                                <p className={`text-white text-[8px] ${tab.act === active? 'text-white' : 'text-[#978E8E]'}`}>{tab.title}</p>
                             </button>
                         ))
                     }

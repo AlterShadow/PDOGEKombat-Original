@@ -9,22 +9,22 @@ const Traintab = () => {
     const [open, setOpen] = useState(false)
     const tabData = [
         {
-            img: "/images/kendo.svg",
+            img: "/images/gym.svg",
             levImg: "/images/lev.svg",
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Kendo",
+            title: "Gym",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
         {
-            img: "/images/kungfu.svg",
+            img: "/images/sparing.svg",
             levImg: "/images/lev.svg",
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Kung Fu",
+            title: "Sparring",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
@@ -54,7 +54,7 @@ const Traintab = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Brazilian Jiu-Jitsu",
+            title: "jiu jitsu",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
@@ -74,7 +74,7 @@ const Traintab = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Judo",
+            title: "kung fu",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
@@ -84,10 +84,10 @@ const Traintab = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Sambo",
+            title: "MMA",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
-        },
+        }
 
     ]
 
