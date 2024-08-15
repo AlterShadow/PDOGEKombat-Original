@@ -10,7 +10,7 @@ const Street = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Kendo",
+            title: "VS. local gang",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
@@ -20,7 +20,7 @@ const Street = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Kung Fu",
+            title: "VS. country boss",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
@@ -30,7 +30,7 @@ const Street = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Karate",
+            title: "VS. hidden expert",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
@@ -40,7 +40,7 @@ const Street = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Taekwondo",
+            title: "VS. former champion",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
@@ -50,7 +50,7 @@ const Street = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Brazilian Jiu-Jitsu",
+            title: "VS. dark forces",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
@@ -60,7 +60,7 @@ const Street = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Muay Thai",
+            title: "VS. gang boss",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
@@ -70,7 +70,7 @@ const Street = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Judo",
+            title: "VS. former fighting champion",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },
@@ -80,7 +80,7 @@ const Street = () => {
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
-            title: "Sambo",
+            title: "VS. national championship champion",
             coinImg: "/images/coin.svg",
             coin: "+100 Coin"
         },

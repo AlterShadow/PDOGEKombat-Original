@@ -13,6 +13,7 @@ import Languages from './components/Languages';
 import Ceo from './components/Ceo';
 import Cipher from './components/Cipher';
 import Airdrop from './components/Airdrop';
+import Airdrop2 from './components/Airdrop2';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/ceo" element={<Ceo />} />
           <Route path="/cipher" element={<Cipher />} />
           <Route path="/airdrop" element={<Airdrop />} />
+          <Route path="/airdrop2" element={<Airdrop2 />} />
         </Routes>
       </BrowserRouter>
     </div>
