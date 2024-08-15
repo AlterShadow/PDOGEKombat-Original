@@ -13,17 +13,33 @@ const Exchange: React.FC = () => {
             exchangeName: "Binance"
         },
         {
-            img: "/images/mex.svg",
-            exchangeName: "MEXC"
+            img: "/images/Huobi.svg",
+            exchangeName: "Huobi"
+        },
+        {
+            img: "/images/okx.svg",
+            exchangeName: "OKX"
+        },
+        {
+            img: "/images/up.svg",
+            exchangeName: "UpBit"
         },
         {
             img: "/images/coinbase.svg",
             exchangeName: "CoinBase"
         },
         {
+            img: "/images/kucoin.svg",
+            exchangeName: "KuCoin"
+        },
+        {
+            img: "/images/bybit.svg",
+            exchangeName: "ByBit"
+        },
+        {
             img: "/images/kraken.svg",
-            exchangeName: "Kraken"
-        }
+            exchangeName: "Gate"
+        },
     ];
 
     const handleButtonClick = (index: number) => {
@@ -31,8 +47,8 @@ const Exchange: React.FC = () => {
     };
 
     return (
-        <div className="h-screen w-full overflow-x-hidden flex flex-col bg-[url(/images/background.svg)] bg-no-repeat bg-cover relative">
-            <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div>
+        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[#120F11]">
+            {/* <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div> */}
             <Top />
             <SettinsTop />
             <div className="px-[6%] z-[500] mt-3">
@@ -49,7 +65,7 @@ const Exchange: React.FC = () => {
                             <TbX />
                         </button>
                     </div>
-                    <div className="mt-4 flex flex-col gap-3">
+                    <div className="mt-4 grid grid-cols-2 gap-3">
                         {exchange.map((e, i) => (
                             <button
                                 key={i}
@@ -58,7 +74,7 @@ const Exchange: React.FC = () => {
                             >
                                 <div className="flex flex-row items-center gap-3">
                                     <img src={e.img} alt={e.exchangeName} />
-                                    <p className="text-white">{e.exchangeName}</p>
+                                    <p className="text-white text-[12px]">{e.exchangeName}</p>
                                 </div>
 
                                 {active===i ?

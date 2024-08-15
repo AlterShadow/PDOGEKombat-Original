@@ -35,8 +35,8 @@ const Settings = () => {
         }
     ]
     return (
-        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[url(/images/background.svg)] bg-no-repeat bg-cover relative" >
-            <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div>
+        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[#120F11]" >
+            {/* <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div> */}
             <Top />
             <SettinsTop />
             {/* <div className="flex flex-col gap-4 mt-3"> */}
