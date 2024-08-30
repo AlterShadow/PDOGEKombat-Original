@@ -22,3 +22,9 @@
 .clip-slant {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 60%);
 }
+.clip-slant2 {
+  clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+}
+.clip {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+}

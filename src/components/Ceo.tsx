@@ -33,7 +33,7 @@ const Ceo = () => {
         ]
 
     return (
-        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[url(/images/background.svg)] bg-no-repeat bg-cover relative" >
+        <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-black bg-no-repeat bg-cover relative" >
             <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div>
             <Top />
             <CEOTop />

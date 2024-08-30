@@ -11,6 +11,7 @@ const Content = () => {
                 <img src="/images/lev.svg" alt="" />
                 <p className="text-[10px]">Lev 1</p>
             </span>
+            <div className="bg-[#3F3D3A] w-[0.5px]"></div>
             <span className="flex flex-row items-center gap-1">
                 <img src="/images/money.svg" alt="" />
                 <p className="text-[10px]">Lev 1</p>
