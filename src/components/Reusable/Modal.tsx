@@ -19,7 +19,7 @@ const GeneralModal: React.FC<GeneralModalProps> = ({ close, handleClose, content
                 className={`modal  fixed inset-0 flex items-center justify-center`}
             >
                 <div
-                    className={`modal-content backdrop-blur-md w-[95%] rounded-xl overflow-y-auto transform transition-transform duration-300 ease-in-out bounce`}
+                    className={`modal-content backdrop-blur-sm border-[#FCEE21] border-[2px] w-[95%] rounded-xl overflow-y-auto transform transition-transform duration-300 ease-in-out bounce`}
                 >
                     <div className="flex p-6 items-center justify-end">
                         <span

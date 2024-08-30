@@ -11,6 +11,7 @@ const Onboarding = () => {
         <img src="/images/doge_line.svg" className="absolute top-[-3%]" alt="" />
         <img src="/images/toprectangle.svg" className="absolute left-[-10%] top-[-10%]" alt="" />
         <img src="/images/sun.svg" className="absolute left-1 top-[3rem]" alt="" />
+        <img src="/images/leftimg.svg" className="absolute left-1 top-[12rem]" alt="" />
         <img src="/images/right_img.svg" className="absolute right-1" alt="" />
         <img src="/images/blur.svg" className="absolute top-[40%] right-1" alt="" />
         <img src="/images/cartoon1.svg" className="w-[60%] absolute top-[4%]" alt="" />

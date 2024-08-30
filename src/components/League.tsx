@@ -8,15 +8,15 @@ const League = () => {
 
     const data = [
         {
-            img: "/images/yout.svg",
-            details: "Winklevoss twins: watch video to earn",
+            img: "/images/twin.svg",
+            details: "Get reward for you and your friens",
             reward: "Get reward",
             amt: "+100,000",
             coin: "/images/coin.svg"
         },
         {
-            img: "/images/gft.svg",
-            details: "Get to Get daily reward",
+            img: "/images/telg.svg",
+            details: "Invite 3 telegram premium members",
             reward: "Get reward",
             amt: "+100,000",
             coin: "/images/coin.svg"
@@ -62,18 +62,17 @@ const League = () => {
                     {
                         data.map((d, i) => (
                             <div key={i} className="flex flex-row items-center ">
-                                <div className="bg-[url(/images/left.svg)] h-[47px] w-full bg-no-repeat flex flex-row items-center">
+                                <div className="bg-[#232224] h-[47px] rounded-l-lg clip-slant2 w-full bg-no-repeat flex flex-row items-center">
                                     <img src={d.img} alt="" />
                                     <div className="text-[8px] ml-1">
                                         <p className="text-white">{d.details}</p>
                                         <span className="flex flex-row items-center text-[#935EDB] text-[8px] ">
                                             <p>{d.reward} </p>
                                             <TbChevronRight />
-
                                         </span>
                                     </div>
                                 </div>
-                                <div className="bg-[url(/images/rightt.svg)] w-[53%] h-[47px] items-center justify-center flex bg-no-repeat pl-4">
+                                <div className="bg-[#FCEE21] w-[50%] rounded-lg clip h-[47px] items-center justify-center flex bg-no-repeat pl-4">
                                     <span className="flex flex-row items-center gap-1">
                                         <p className="font-semibold">{d.amt}</p>
                                         <img src={d.coin} alt="" />
@@ -104,7 +103,7 @@ const League = () => {
                                             </span>
                                         </div>
                                         <div className='flex items-center'>
-                                            <span className='flex flex-col leading-none'>
+                                            <span className='flex flex-col items-center leading-none'>
                                                 <p className='text-[12px] font-semibold text-white'>{f.bal}</p>
                                                 <p className='text-[8px] text-[#FCEE21]'>{f.score}</p>
                                             </span>

@@ -18,22 +18,22 @@ const Train = () => {
     const [active, setActive] = useState("train")
     const tabs = [
         {
-            img:"",
+            img:"/images/training.png",
             title:"Training",
             act:"train"
         },
         {
-            img:"",
+            img:"/images/street.png",
             title:"Street",
             act:"street"
         },
         {
-            img:"",
+            img:"/images/amateur.png",
             title:"Amature Fighting",
             act:"amature"
         },
         {
-            img:"",
+            img:"/images/ufc.png",
             title:"UFC",
             act:"ufc"
         },
@@ -83,7 +83,8 @@ const Train = () => {
                 <div className="flex w-full justify-between gap-3 mt-2">
                     {
                         tabs.map((tab, index)=>(
-                            <button key={index} className={`py-1 w-full rounded-lg px-2 items-center justify-center flex ${tab.act === active? 'bg-[#935EDB]' : 'bg-[#252423]'}`} onClick={()=>setActive(tab.act)}>
+                            <button key={index} className={`py-1 w-fit px-5 rounded-lg  items-center justify-center flex flex-col ${tab.act === active? 'bg-[#935EDB]' : 'bg-[#252423]'}`} onClick={()=>setActive(tab.act)}>
+                                <img src={tab.img} width={30} alt="" />
                                 <p className={`text-white text-[8px] ${tab.act === active? 'text-white' : 'text-[#978E8E]'}`}>{tab.title}</p>
                             </button>
                         ))

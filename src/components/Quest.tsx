@@ -63,7 +63,7 @@ const Quest = () => {
                     {
                         data.map((d, i) => (
                             <div key={i} className="flex flex-row items-center ">
-                                <div className="bg-[url(/images/left.svg)] h-[47px] w-full bg-no-repeat flex flex-row items-center">
+                                <div className="bg-[#232224] h-[47px] rounded-l-lg clip-slant2 w-full  flex flex-row items-center">
                                     <img src={d.img} alt="" />
                                     <div className="text-[8px] ml-1">
                                         <p className="text-white">{d.details}</p>
@@ -74,7 +74,7 @@ const Quest = () => {
                                         </span>
                                     </div>
                                 </div>
-                                <div className="bg-[url(/images/rightt.svg)] w-[53%] h-[47px] items-center justify-center flex bg-no-repeat pl-4">
+                                <div className="bg-[#FCEE21] w-[50%] rounded-lg clip  h-[47px] items-center justify-center flex bg-no-repeat pl-4">
                                     <span className="flex flex-row items-center gap-1">
                                         <p className="font-semibold">{d.amt}</p>
                                         <img src={d.coin} alt="" />

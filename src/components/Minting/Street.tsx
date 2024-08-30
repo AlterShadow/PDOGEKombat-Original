@@ -5,84 +5,84 @@ import { TbArrowRight } from "react-icons/tb"
 const Street = () => {
     const tabData = [
         {
-            img: "/images/kendo.svg",
+            img: "/images/PDOGE/Rect1.svg",
             levImg: "/images/lev.svg",
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
             title: "VS. local gang",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "1K Coin per hour"
         },
         {
-            img: "/images/kungfu.svg",
+            img: "/images/PDOGE/Rect2.svg",
             levImg: "/images/lev.svg",
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
             title: "VS. country boss",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "1K Coin per hour"
         },
         {
-            img: "/images/karate.svg",
+            img: "/images/PDOGE/Rect3.svg",
             levImg: "/images/lev.svg",
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
             title: "VS. hidden expert",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "1K Coin per hour"
         },
         {
-            img: "/images/kendo.svg",
+            img: "/images/PDOGE/Rect4.svg",
             levImg: "/images/lev.svg",
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
             title: "VS. former champion",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "1K Coin per hour"
         },
         {
-            img: "/images/braz.svg",
+            img: "/images/PDOGE/Rect5.svg",
             levImg: "/images/lev.svg",
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
             title: "VS. dark forces",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "1K Coin per hour"
         },
         {
-            img: "/images/muay.svg",
+            img: "/images/PDOGE/Rect6.svg",
             levImg: "/images/lev.svg",
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
             title: "VS. gang boss",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "1K Coin per hour"
         },
         {
-            img: "/images/judo.svg",
+            img: "/images/PDOGE/Rect7.svg",
             levImg: "/images/lev.svg",
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
             title: "VS. former fighting champion",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "1K Coin per hour"
         },
         {
-            img: "/images/sambo.svg",
+            img: "/images/PDOGE/Rect8.svg",
             levImg: "/images/lev.svg",
             lev: "Lev 1",
             monImg: "/images/money.svg",
             amt: "+1k",
             title: "VS. national championship champion",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "1K Coin per hour"
         },
 
     ]
@@ -106,11 +106,11 @@ const Street = () => {
                                     </span>
                                 </div>
                             </div>
-                            <p className="text-[12px] font-semibold text-white">{t.title}</p>
+                            <p className="text-[12px] text-white">{t.title}</p>
                             <div className="flex flex-row justify-between items-center">
                                 <span className="flex flex-row items-center gap-1">
                                     <img src={t.coinImg} alt="" />
-                                    <p className="text-white text-[11px] font-semibold">{t.coin}</p>
+                                    <p className="text-white text-[11px]">{t.coin}</p>
                                 </span>
                                 <TbArrowRight className="font-bold text-[#FCEE21]"/>
                             </div>

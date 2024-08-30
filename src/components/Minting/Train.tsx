@@ -16,7 +16,7 @@ const Traintab = () => {
             amt: "+1k",
             title: "Gym",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "500 Coin per hour"
         },
         {
             img: "/images/sparing.svg",
@@ -26,7 +26,7 @@ const Traintab = () => {
             amt: "+1k",
             title: "Sparring",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "500 Coin per hour"
         },
         {
             img: "/images/karate.svg",
@@ -36,7 +36,7 @@ const Traintab = () => {
             amt: "+1k",
             title: "Karate",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "500 Coin per hour"
         },
         {
             img: "/images/kendo.svg",
@@ -46,7 +46,7 @@ const Traintab = () => {
             amt: "+1k",
             title: "Taekwondo",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "500 Coin per hour"
         },
         {
             img: "/images/braz.svg",
@@ -56,7 +56,7 @@ const Traintab = () => {
             amt: "+1k",
             title: "jiu jitsu",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "500 Coin per hour"
         },
         {
             img: "/images/muay.svg",
@@ -66,7 +66,7 @@ const Traintab = () => {
             amt: "+1k",
             title: "Muay Thai",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "500 Coin per hour"
         },
         {
             img: "/images/judo.svg",
@@ -76,7 +76,7 @@ const Traintab = () => {
             amt: "+1k",
             title: "kung fu",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "500 Coin per hour"
         },
         {
             img: "/images/sambo.svg",
@@ -86,7 +86,7 @@ const Traintab = () => {
             amt: "+1k",
             title: "MMA",
             coinImg: "/images/coin.svg",
-            coin: "+100 Coin"
+            coin: "500 Coin per hour"
         }
 
     ]
@@ -105,12 +105,12 @@ const Traintab = () => {
                         <div onClick={handleopenModal}>
                             <div  className="flex flex-row w-full justify-between">
                                 <img src={t.img} alt="" />
-                                <div className="border-[#3F3D3A] flex border-1 rounded-md gap-2 items-center">
+                                <div className="border-[#3F3D3A] flex border-[1px] p-2 rounded-md gap-2 items-center">
                                     <span className="flex flex-row items-center gap-1">
                                         <img src={t.levImg} alt="" />
                                         <p className="text-white text-[8px]">{t.lev}</p>
                                     </span>
-                                    <div className="w-[1px] bg-white h-[20px]"></div>
+                                    <div className="w-[0.5px] bg-[#3F3D3A] h-[20px]"></div>
                                     <span className="flex flex-row items-center gap-1">
                                         <img src={t.monImg} alt="" />
                                         <p className="text-white text-[8px]">{t.amt}</p>
