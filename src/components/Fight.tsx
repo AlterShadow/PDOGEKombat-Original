@@ -8,6 +8,7 @@ import Top2 from "./Reusable/Top2"
 const Fight = () => {
     return (
         <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[#120F11] relative" >
+            <div className="h-[65vh] bg-[#232224] clip-slant absolute"> </div>
             <Top />
             <Top2 />
             <div className="z-[500] ">
