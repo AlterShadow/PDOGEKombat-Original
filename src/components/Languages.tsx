@@ -115,8 +115,8 @@ const Languages: React.FC = () => {
     return (
         <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[#120F11]">
             {/* <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div> */}
-                <Top />
-            <div className='flex flex-col h-[75vh] overflow-scroll'>
+            <Top />
+            <div className='flex flex-col h-[73vh] overflow-scroll'>
                 <SettinsTop />
                 <div className="px-[6%] z-[500] mt-3">
                     <div className="p-4 rounded-xl bg-[#252423]">
@@ -159,6 +159,7 @@ const Languages: React.FC = () => {
                         </div>
                     </div>
                 </div>
+                {/* <div className='h-[30px]'></div> */}
             </div>
             <Navigation />
         </div>

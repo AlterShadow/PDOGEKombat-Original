@@ -45,9 +45,10 @@ const Fight = () => {
         </div>
         <img
           src="/images/home.svg"
-          className="w-[70%]  absolute md:top-[2%] top-[17%] left-[13%]"
+          className="w-[70%] absolute z-[500] md:top-[2%] top-[17%] left-[13%]"
           alt=""
         />
+        <div className="bg-[#935EDB] md:w-[700px] md:h-[700px] sm:h-[450px] sm:w-[450px] rounded-full opacity-5 blur-lg "></div>
       </div>
       <div className="px-[6%] absolute w-full bottom-[16%]">
         <div className="justify-between flex w-full pr-[5px]">

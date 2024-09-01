@@ -129,7 +129,7 @@ const Traintab = () => {
           </div>
         </div>
       ))}
-      <p className="h-[30px]"></p>
+      <p className="h-[120px]"></p>
 
       {open && (
         <GeneralModal close={close} handleClose={close} content={<Content />} />
