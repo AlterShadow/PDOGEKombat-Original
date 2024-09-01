@@ -1,23 +1,17 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
   font-family: "fighting_spirit";
-  src: url("/fighting_spirit/Fighting Spirit 2.otf")
-    format("truetype");
+  src: url("/fighting_spirit/Fighting Spirit 2.otf") format("truetype");
   font-style: normal;
 }
 
-
-.fighting{
+.fighting {
   font-family: fighting_spirit;
 }
 
-
-*{
-  font-family: "Poppins", sans-serif;;
+* {
+  font-family: "Poppins", sans-serif;
 }
-
 
 .clip-slant {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 60%);
@@ -29,4 +23,25 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
 }
 
+#ton-connect-button {
+  width: 100% !important;
+  margin-top: 18px !important;
+}
 
+.go3974562317.go54158285 {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: #a36cee !important;
+  border-radius: 48px !important;
+  border: 1px solid rgba(252, 238, 33, 0.09) !important;
+  height: 46px !important;
+}
+.go3974562317.go54158285 svg {
+  display: none !important;
+}
+.go1487791704 {
+  font-family: fighting_spirit !important;
+  color: #fcee21 !important;
+}

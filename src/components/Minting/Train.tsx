@@ -1,5 +1,3 @@
-// import React from 'react'
-
 import { useState } from "react";
 import { TbArrowRight } from "react-icons/tb";
 import GeneralModal from "../Reusable/Modal";

@@ -1,23 +1,21 @@
 // import from 'react'
-import './App.css'
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
-import Onboarding from './components/Onboarding';
-import Fight from './components/Fight';
-import Honor from './components/Honor';
-import League from './components/League';
-import Quest from './components/Quest';
-import Train from './components/Train';
-import Settings from './components/Settings';
-import Exchange from './components/Exchange';
-import Languages from './components/Languages';
-import Ceo from './components/Ceo';
-import Cipher from './components/Cipher';
-import Airdrop from './components/Airdrop';
-import Airdrop2 from './components/Airdrop2';
-
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Onboarding from "./components/Onboarding";
+import Fight from "./components/Fight";
+import Honor from "./components/Honor";
+import League from "./components/League";
+import Quest from "./components/Quest";
+import Train from "./components/Train";
+import Settings from "./components/Settings";
+import Exchange from "./components/Exchange";
+import Languages from "./components/Languages";
+import Ceo from "./components/Ceo";
+import Cipher from "./components/Cipher";
+import Airdrop from "./components/Airdrop";
+import Airdrop2 from "./components/Airdrop2";
 
 function App() {
-
   return (
     <div>
       <BrowserRouter>
@@ -38,7 +36,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

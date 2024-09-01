@@ -1,5 +1,3 @@
-// import React from 'react'
-
 import { TbChevronRight } from "react-icons/tb";
 import Navigation from "./Reusable/Navigation";
 import Top from "./Reusable/Top";
@@ -47,10 +45,9 @@ const Train = () => {
 
   return (
     <div className="h-screen w-full overflow-x-hidden flex flex-col bg-[#120F11]">
-      {/* <div className="w-full h-full bg-black inset-0 bg-opacity-[0.6] absolute"></div> */}
       <Top />
       <div className="px-[6%] z-[500] h-[76vh]">
-        <button className="border-[2px] py-1 w-full backdrop-blur-sm rounded-lg px-2 flex justify-between border-[#E1AF54]">
+        <div className="border-[2px] py-1 w-full backdrop-blur-sm rounded-lg px-2 flex justify-between border-[#E1AF54]">
           <div className="flex flex-row items-center gap-2">
             <button className="w-[43px] h-[43px] flex items-center justify-center bg-[#252423] rounded-lg">
               <img src="/images/ceo.svg" alt="" />
@@ -78,10 +75,10 @@ const Train = () => {
               </button>
             </div>
           </div>
-        </button>
+        </div>
         <div className="flex w-full justify-between gap-2 mt-2">
           {tabs.map((tab, index) => (
-            <button
+            <div
               key={index}
               className={`py-1 w-fit px-5 rounded-lg items-center justify-center flex flex-col   ${
                 tab.act === active ? "bg-[#935EDB]" : "bg-[#252423]"
@@ -96,7 +93,7 @@ const Train = () => {
               >
                 {tab.title}
               </p>
-            </button>
+            </div>
           ))}
         </div>
         <div className="mt-[14px] overflow-y-auto">{tabitems[active]}</div>
