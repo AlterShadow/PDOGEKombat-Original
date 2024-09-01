@@ -79,16 +79,16 @@ const Train = () => {
             </div>
           </div>
         </button>
-        <div className="flex w-full justify-between gap-3 mt-2">
+        <div className="flex w-full justify-between gap-2 mt-2">
           {tabs.map((tab, index) => (
             <button
               key={index}
-              className={`py-1 w-fit px-5 rounded-lg items-center justify-center flex flex-col ${
+              className={`py-1 w-fit px-5 rounded-lg items-center justify-center flex flex-col   ${
                 tab.act === active ? "bg-[#935EDB]" : "bg-[#252423]"
               }`}
               onClick={() => setActive(tab.act)}
             >
-              <img src={tab.img} width={30} alt="" />
+              <img src={tab.img} width={25} alt="" />
               <p
                 className={`text-white text-[8px] ${
                   tab.act === active ? "text-white" : "text-[#978E8E]"

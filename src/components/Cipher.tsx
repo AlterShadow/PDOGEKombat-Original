@@ -50,7 +50,7 @@ const Cipher = () => {
         </div>
         <img
           src="/images/cipher.svg"
-          className="w-[30%] absolute left-[35%]"
+          className="w-[30%] absolute left-[35%] mt-2"
           alt=""
         />
       </div>

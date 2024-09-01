@@ -37,7 +37,7 @@ const Exchange: React.FC = () => {
             exchangeName: "ByBit"
         },
         {
-            img: "/images/kraken.svg",
+            img: "/images/gatecrypto.svg",
             exchangeName: "Gate"
         },
     ];
