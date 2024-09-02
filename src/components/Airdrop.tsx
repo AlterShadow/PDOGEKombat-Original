@@ -23,11 +23,11 @@ const Airdrop = () => {
                 More details soon.
               </p>
             </div>
-            <Link to={"/airdrop2"} className="w-full">
+            {/* <Link to={"/airdrop2"} className="w-full">
               <button className="w-full text-[14px] fighting py-3 mt-2 text-[#FCEE21] bg-[#A36CEE] rounded-xl">
                 Connect Wallet
               </button>
-            </Link>
+            </Link> */}
             <TonConnectButton />
           </div>
         </div>
