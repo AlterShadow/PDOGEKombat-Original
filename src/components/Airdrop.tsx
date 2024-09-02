@@ -2,7 +2,6 @@ import Top2 from "./Reusable/Top2";
 import Top from "./Reusable/Top";
 import Navigation from "./Reusable/Navigation";
 import { TonConnectButton } from "@tonconnect/ui-react";
-import { Link } from "react-router-dom";
 
 const Airdrop = () => {
   return (
