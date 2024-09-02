@@ -1,9 +1,22 @@
 import Top2 from "./Reusable/Top2";
 import Top from "./Reusable/Top";
 import Navigation from "./Reusable/Navigation";
-import { TonConnectButton } from "@tonconnect/ui-react";
+import { TonConnectButton, useTonWallet } from "@tonconnect/ui-react";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Airdrop = () => {
+  const wallet = useTonWallet();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (wallet?.account) {
+      navigate("/airdrop2");
+    } else {
+      console.log("No connected wallet");
+    }
+  }, [wallet?.account.address]);
+
   return (
     <div className="h-screen w-full overflow-x-hidden  flex flex-col bg-[#120F11] relative">
       <Top />
